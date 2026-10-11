@@ -1,10 +1,25 @@
 \documentclass{article}
 \begin{document}
-\section{Il pendolo}
-Il pendolo semplice ha un periodo dato dall'equazione
+\section{Esperimenti sul pendolo}
+\subsection{Obiettivi}
+Gli obiettivi degli esperimenti svolti con il pendolo sono principalmente due. 
+Il primo è quello di calcolare l'accelerazione gravitazionale, $g$. Abbiamo infatti dimostrato in classe che con piccole oscillazioni del pendolo l'accelerazione gravitazionale è facilmente approssimabile. Nell'esperimento si è cercato di tenere angoli iniziali piccoli, per fare in modo che l'approssimazione abbia un basso errore.
+Il secondo obiettivo è quello di verificare l'indipendenza del periodo d'oscillazione dal valore della massa che viene utilizzata. Sempre dalla formula dimostrata in classe si può notare come il periodo non doverebbe dipendere dalla massa (sempre solo con piccole oscillazioni).
+\subsection{Teoria}
+La formula dimostrata in classe è la seguente.
 $$T = 2\pi\sqrt\frac{L}{g}$$
-Con quest'equazione di può ricavare l'accelerazione gravitazionale
+dove $T$ è il periodo d'oscillazione, dunque il tempo trascorso affinché la massa ritorni alla posizione iniziale, 
+$\pi$ è il rapport tra circonferenza e diametro e vale sempre $\pi = 3.1415926535897...$. Per i calcoli tuttavia si utlizzerà $\pi = 3.142$. $L$ è la lunghezza del filo utilizzato e $g$ è l'accelerazione gravitazionale, che calcoleremo utilizzando l'equazione di gravitazione universale, e l'altezza sul livello del mare del laboratorio in cui si è svolto l'esperimento.
+Dalla formula citata si può ricavare $g$ con alcuni passaggi algebrici
 $$T^2 = 4\pi^2\frac{L}{g}$$
+si può elevare al quadrato perché entrambi i lati contengono valori positivi; il periodo per convenzione è sempre positivo e una radice quadrata non può essere negativa
 $$g T^2 = 4\pi^2 L$$
-$$g = 4\pi^2 \frac{L}{T^2}$$
+$$g = 4\pi^2\frac{L}{T^2}$$
+Questa è formula che si utilizzerà per calcolare l'accelerazione gravitazionale, dato un periodo e una lunghezza misurati.
+Si calcola però anche la cosiddetta $g$ teorica, per poi computare l'errore fra quella teorica e quella sperimentale, cioè quella calcolata con i parametri del pendolo.
+L'accelerazione gravitazionale teorica si calcola utilizzando l'equazione di gravitazione universale di Newton
+$$F = G\frac{M_T M_p}{r^2}$$
+dove $F$ è la forza di attrazione gravitazionale tra il pendolo e la terra (ovviamente le altre attrazioni sono trascurabili), $G$ è la costante di gravitazione universale, che vale circa $G = 6.67 \cdot 10^{-11}$, $M_T$ è la massa della terra, $M_p$ è la massa del pendolo e $r$ è la distanza tra il pendolo e il centro della terra, data da
+$$r = r_t + h$$
+dove $r_t$ è il raggio della terra e $h$ è l'altezza del pendolo sul livello del mare.
 \end{document}
