@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.10.9)  11 OCT 2026 17:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.10.9)  11 OCT 2026 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -81,33 +81,48 @@ Overfull \hbox (6.41722pt too wide) in paragraph at lines 117--118
 e, si pu^^Ro cal-co-lare l'errore
  []
 
-[5] (./RelazionePendolo.aux)
+[5]
+Overfull \hbox (4.22285pt too wide) in paragraph at lines 137--142
+\OT1/cmr/m/n/10 tazionale al pe-ri-odo d'oscillazione sia co-er-ente ad al-cuni
+ risul-tati dell'esperimento.
+ []
+
+
+Overfull \hbox (32.05013pt too wide) in paragraph at lines 137--142
+\OT1/cmr/m/n/10 punto $(0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$ come som-ma-to-
+ria in-finita di ter-mini poli-no-mi-ali $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\O
+ML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [][] []\OML/cmm/m/it/10 x[]$\OT1/cmr/m/n/10
+ ,
+ []
+
+[6] (./RelazionePendolo.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 444 strings out of 469515
- 8218 string characters out of 5470807
- 441756 words of memory out of 5000000
- 29175 multiletter control sequences out of 15000+600000
+ 445 strings out of 469515
+ 8226 string characters out of 5470807
+ 442756 words of memory out of 5000000
+ 29176 multiletter control sequences out of 15000+600000
  629574 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 35i,6n,38p,664b,192s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 35i,6n,38p,988b,192s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/riccardo/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600p
 k></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy7.pfb>
-Output written on RelazionePendolo.pdf (5 pages, 114433 bytes).
+cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb>
+Output written on RelazionePendolo.pdf (6 pages, 129265 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
