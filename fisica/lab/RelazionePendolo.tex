@@ -3,14 +3,14 @@
 \section{Esperimenti sul pendolo}
 \subsection{Introduzione}
 Questo documento è una relazione all'esperimento svolto a scuola utilizzando il pendolo semplice.
-\subsection{Obiettivi: CONCLUDERE}
+\subsection{Obiettivi}
 Gli obiettivi degli esperimenti svolti con il pendolo sono principalmente due. \\
 Il primo è quello di calcolare l'accelerazione gravitazionale, $g$. Abbiamo infatti dimostrato in classe che con piccole oscillazioni del pendolo l'accelerazione gravitazionale è facilmente approssimabile. Nell'esperimento si è cercato di tenere angoli iniziali piccoli, per fare in modo che l'approssimazione abbia un basso errore. \\
-Il secondo obiettivo è quello di verificare l'indipendenza del periodo d'oscillazione dal valore della massa che viene utilizzata. Sempre dalla formula dimostrata in classe si può notare come il periodo non doverebbe dipendere dalla massa (sempre solo con piccole oscillazioni).
+Il secondo obiettivo è quello di verificare l'indipendenza del periodo d'oscillazione dal valore della massa che viene utilizzata e dall'angolo iniziale. Sempre dalla formula dimostrata in classe si può notare come il periodo non doverebbe dipendere dalla massa o dall'angolo iniziale(sempre solo con piccole oscillazioni).
 \subsection{Teoria}
 La formula dimostrata in classe è la seguente.
 $$T = 2\pi\sqrt\frac{L}{g}$$
-dove $T [\mathrm{s}]$ è il periodo d'oscillazione, dunque il tempo trascorso affinché la massa ritorni alla posizione iniziale, $\pi$ è il rapporto tra circonferenza e diametro e vale sempre $\pi = 3.1415926535897...$. Per i calcoli tuttavia si utlizzerà $\pi = 3.142$. $L [\mathrm{m}]$ è la lunghezza del filo utilizzato e $g [\mathrm{m s^{-2}}]$ è l'accelerazione gravitazionale, che calcoleremo utilizzando l'equazione di gravitazione universale, e l'altezza sul livello del mare del laboratorio in cui si è svolto l'esperimento. \\
+dove $T [\mathrm{s}]$ è il periodo d'oscillazione, dunque il tempo trascorso affinché la massa ritorni alla posizione iniziale, $\pi$ è il rapporto tra circonferenza e diametro e vale $\pi = 3.1415926535897...$. Per i calcoli tuttavia si utlizzerà $\pi = 3.142$. $L [\mathrm{m}]$ è la lunghezza del filo utilizzato e $g [\mathrm{m s^{-2}}]$ è l'accelerazione gravitazionale, che calcoleremo utilizzando l'equazione di gravitazione universale, e l'altezza sul livello del mare del laboratorio in cui si è svolto l'esperimento. \\
 Bisogna notare che questa formula si dimostra in ipotesi che l'angolo iniziale sia sufficentemente piccolo ($\theta_0 \approx 5^{\circ}$) e trascurando l'attrito dell'aria
 Dalla formula citata si può ricavare $g$ con alcuni passaggi algebrici
 $$T^2 = 4\pi^2\frac{L}{g}$$
@@ -32,6 +32,7 @@ data la relazione
 $$r = r_T + h$$
 si può dedurre
 $$g = G\frac{M_T}{(r_T + h)^2}$$
+nota: si possono omettere i simboli vettore per forze e accelerazioni quando si lavora con una sola dimensione
 \subsection{Strumenti utilizzati}
 Gli strumenti utilizzati sono:
 \begin{itemize}
@@ -127,18 +128,18 @@ $$E_3 = \frac{|11.11 - 9.81|}{9.81} = 0.133$$
 $$E_4 = \frac{|10.96 - 9.81|}{9.81} = 0.117$$
 $$E_5 = \frac{|10.22 - 9.81|}{9.81} = 0.042$$
 e dunque
-$$E_p1 = 9.6\%$$
-$$E_p2 = 8.9\%$$
-$$E_p3 = 13.3\%$$
-$$E_p4 = 11.7\%$$
-$$E_p5 = 4.2\%$$
+$$E_{p1} = 9.6\%$$
+$$E_{p2} = 8.9\%$$
+$$E_{p3} = 13.3\%$$
+$$E_{p4} = 11.7\%$$
+$$E_{p5} = 4.2\%$$
 
 \subsection{Conclusioni}
 Si può dunque concludere l'esperimento con alcune considerazioni.\\
 Come prima cosa, si può notare come la formula che lega accelerazione gravitazionale al periodo d'oscillazione sia coerente ad alcuni risultati dell'esperimento. Infatti, si può notare come nella formula in considerazione, non sono presenti termini di massa o angolo iniziale. Da ciò si può pensare che mantenendo una lunghezza del pendolo costante, ma modificando il valore della massa dell'oggetto oppure l'angolo iniziale, il periodo d'oscillazione non cambi. Si può effettivamente notare questo con il terzo e quarto esperimento, dove la lunghezza $L = 41.5\mathrm{cm}$è uguale, ma la massa cambia completamente valore, ma il valore del periodo è pressochè lo stesso.\\
-L'indipendenza del periodo dall'angolo iniziale in questo esperimento si può notare con il secondo e terzo esperimento, dove i valori delle masse e della lunghezza del pendolo sono sufficentemente simili, ma l'angolo iniziale e diverso e il periodo è abbastanza simile (Nel secondo esperimento vale $T_2 = $ e nel terzo $T_3 = $.\\
-Si può notare anche come la formula si trovi in approssimazione di angoli piccoli. Infatti, in esperimenti come il secondo, dove l'angolo iniziale era molto superiore a $5\circ$; era infatti $\theta_0 = (11 \pm 0.1)^\circ$, l'errore venga $E_p2 = 8.9\%$. Invece nel quinto esperimento, dove l'angolo iniziale vale $\theta_0 = (5 \pm 0.1)^\circ$, l'errore viene $E_p5 = 4.2\%$.\\
-Bisogna però fare conto ad alcune incoerenze, dovute probabilmente ad errori sistematici. L'approssimazione attuata per la dimostrazione della formula che lega accelerazione gravitazionale a periodo, è dovuta al mantenimento unico del primo termine della serie di Taylor che esprime la funzione $f(x) = \sin(x)$ nel punto $(0, 0)$ come sommatoria infinita di termini polinomiali $$f(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} x^{2n+1}$$, che da dunque origine alla relazione $\sin(x) = x$ per limite della sommatoria a $n = 0$. Osservando il grafico della funzione seno, si può dunque notare che per angoli compresi tra $0$ e $\frac{pi}{2}$ e quindi $90*\circ$, più l'angolo aumenta, più l'errore dovrebbe crescere. Con i dati del nostro esperimento si nota invece che il dato con l'errore più grande, cioè $E_p3 = 13.3\%$ non ha l'angolo più grande, che invece lo ha l'esperimento due, a cui corrisponde un errore $E_p2 = 8.9\%$ minore.\\
+L'indipendenza del periodo dall'angolo iniziale in questo esperimento si può notare con il secondo e terzo esperimento, dove i valori delle masse e della lunghezza del pendolo sono sufficentemente simili, ma l'angolo iniziale e diverso e il periodo è abbastanza simile (Nel secondo esperimento vale $T_2 = 12.24\mathrm{s}$ e nel terzo $T_3 = 12.15\mathrm{s}$.\\
+Si può notare anche come la formula si trovi in approssimazione di angoli piccoli. Infatti, in esperimenti come il secondo, dove l'angolo iniziale era molto superiore a $5^\circ$; era infatti $\theta_0 = (11 \pm 0.1)^\circ$, l'errore venga $E_{p2} = 8.9\%$. Invece nel quinto esperimento, dove l'angolo iniziale vale $\theta_0 = (5 \pm 0.1)^\circ$, l'errore viene $E_{p5} = 4.2\%$.\\
+Bisogna però fare conto ad alcune incoerenze, dovute probabilmente ad errori sistematici. L'approssimazione attuata per la dimostrazione della formula che lega accelerazione gravitazionale a periodo, è dovuta al mantenimento unico del primo termine della serie di Taylor che esprime la funzione $f(x) = \sin(x)$ nel punto $(0, 0)$ come sommatoria infinita di termini polinomiali $$f(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} x^{2n+1}$$, che da dunque origine alla relazione $\sin(x) = x$ per limite della sommatoria a $n = 0$. Osservando il grafico della funzione seno, si può dunque notare che per angoli compresi tra $0$ e $\frac{pi}{2}$ e quindi $90*\circ$, più l'angolo aumenta, più l'errore dovrebbe crescere. Con i dati del nostro esperimento si nota invece che il dato con l'errore più grande, cioè $E_{p3} = 13.3\%$ non ha l'angolo più grande, che invece lo ha l'esperimento due, a cui corrisponde un errore $E_{p2} = 8.9\%$ minore.\\
 
 \subsection{Note finali}
 La relazione di trova anche su https://www.github.com/RiccardoCalle/Studio/fisica/lab con altro materiale.
