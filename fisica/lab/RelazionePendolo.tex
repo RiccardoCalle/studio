@@ -21,9 +21,17 @@ Questa è formula che si utilizzerà per calcolare l'accelerazione gravitazional
 Si calcola però anche la cosiddetta $g$ teorica, per poi computare l'errore fra quella teorica e quella sperimentale, cioè quella calcolata con i parametri del pendolo. \\
 L'accelerazione gravitazionale teorica si calcola utilizzando l'equazione di gravitazione universale di Newton
 $$F = G\frac{M_T m_p}{r^2}$$
-dove $F [N]$ è la forza di attrazione gravitazionale tra il pendolo e la terra (ovviamente le altre attrazioni sono trascurabili), $G$ è la costante di gravitazione universale, che vale circa $G \approx 6.67 \cdot 10^{-11}\mathrm{N m^2 kg ^ {-2}}$, $M_T [\mathrm{kg}]$ è la massa della terra, $M_p [\mathrm{kg}]$ è la massa del pendolo e $r [\mathrm{m}]$ è la distanza tra il pendolo e il centro della terra, data da
-$$r = r_t + h$$
-dove $r_t \approx 6.373 \cdot 10^6[\mathrm{m}]$ è il raggio della terra e $h [\mathrm{m}]$ è l'altezza del pendolo sul livello del mare.
+dove $F [N]$ è la forza di attrazione gravitazionale tra il pendolo e la terra (ovviamente le altre attrazioni sono trascurabili), $G$ è la costante di gravitazione universale, che vale circa $G \approx 6.674 \cdot 10^{-11}\mathrm{N m^2 kg ^ {-2}}$, $M_T$ è la massa della terra e vale circa $M_t = 5.972 \cdot 10^{24}\mathrm{kg}$, $M_p [\mathrm{kg}]$ è la massa del pendolo e $r [\mathrm{m}]$ è la distanza tra il pendolo e il centro della terra, data da
+$$r = r_T + h$$
+dove $r_T \approx 6.373 \cdot 10^6[\mathrm{m}]$ è il raggio della terra e $h [\mathrm{m}]$ è l'altezza del pendolo sul livello del mare.
+Utilizzando la seconda legge della dinamica di Newton $$F = ma$$ si può dedurre l'accelerazione gravitazionale, sostituendo la forza nella legge di gravitazione universale con il prodotto tra massa del pendolo e accelerazione, che in questo caso è quella gravitazionale.
+$$F = G\frac{M_T m_p}{r^2}$$
+$$m_pg = G\frac{M_T m_p}{r^2}$$
+$$g = G\frac{M_T}{r^2}$$
+data la relazione
+$$r = r_T + h$$
+si può dedurre
+$$g = G\frac{M_T}{(r_T + h)^2}$$
 \subsection{Strumenti utilizzati}
 Gli strumenti utilizzati sono:
 \begin{itemize}
@@ -77,6 +85,54 @@ sferetta argentea di massa $m_a = (24.4 \pm 0.1) \mathrm{g}$\\
 lunghezza $L = (27.8 \pm 0.2) \mathrm{cm}$\\
 angolo iniziale $\theta_0 = (5 \pm 0.1)^{\circ}$\\
 tempo misurato dal primo cronometro $t_1 = 9.66 \mathrm{s}$\\
-tempo misurato dal secondo cronometro $t_2 = 9.76 \mathrm{s}$
+tempo misurato dal secondo cronometro $t_2 = 9.76 \mathrm{s}$\\\\
 
+Inoltre alla fine si è utilizzato un orologio digitale di un compagno per verificare che l'altezza sul livello del mare fosse $h = 252 \mathrm{m}$
+
+\subsection{Risultati}
+Utilizzando i dati raccolti possiamo calcolare l'accelerazione gravitazionale teorica, un'accelerazione gravitazionale sperimentale per ogni esperimento, usando un periodo dato da un decimo del tempo medio misurato, essendo esso il tempo di dieci oscillazioni.\\
+Il tempo medio si ottiene facendo la media tra i due tempi misurati
+$$t_m = \frac{t1 + t2}{2} \pm \frac{|t1 - t2|}{2}$$
+possiamo dunque calcolare i periodi di ogni esperimento, denominati come $T_n$ dove n è il numero dell'esperimento.\\
+Segue il calcolo del primo periodo; gli altri sono analoghi
+$$t_m = \frac{13.16 + 12.95}{2} \pm \frac{|13.16 - 12.95|}{2} = (13.06 \pm 0.11)\mathrm{s}$$
+$$T_1 = \frac{t_m}{10} = \frac{13.06 \pm 0.11}{10} = (1.31 \pm 0.01)\mathrm{s}$$
+
+Dato dunque il periodo di ogni esperimento e la lunghezza del filo, si può calcolare l'accelerazione gravitazionale per ogni esperimento. Segue il calcolo dell'accelerazione del primo esperimento.
+
+$$g_1 = 4\pi^2\frac{L}{T_1^2} = 4\pi^2\frac{0.468 \pm 0.002}{(1.31 \pm 0.01)^2} = 4\pi^2\frac{0.468}{1.31^2} \pm 4\pi^2\frac{0.468}{1.31^2} \cdot (\frac{0.002}{0.468} + 2\frac{0.01}{1.31}) = (10.75 \pm 0.21)\mathrm{ms^{-2}}$$
+
+Svolgendo lo stesso calcolo per gli altri esperimenti, si può giungere ai seguenti valori.
+$$g_1 = (10.75 \pm 0.21)\mathrm{ms^{-2}}$$
+$$g_2 = (10.68 \pm 0.19)\mathrm{ms^{-2}}$$
+$$g_3 = (11.11 \pm 0.18)\mathrm{ms^{-2}}$$
+$$g_4 = (10.96 \pm 0.19)\mathrm{ms^{-2}}$$
+$$g_5 = (10.22 \pm 0.14)\mathrm{ms^{-2}}$$
+
+Calcolate le accelerazioni gravitazionali sperimentali, è oppurtuno calcolare l'accelerazione gravitazionale teorica con la legge della gravitazione universale
+
+$$g = G\frac{M_T}{(r_T + h)^2}$$
+$$g = 6.674 \cdot 10^{-11} \frac{5.972 \cdot 10^{24}}{(6.373 \cdot 10^6 + 252)^2} = 9.813$$
+
+Ora per ogni accelerazione gravitazionale sperimentale, si può calcolare l'errore relativo rispetto a quella teorica appena calcolata con la formula che segue
+
+$$E = \frac{|g_t - g_s|}{g_t}$$
+
+dove $E$ è l'errore relativo, $g_t$ è l'accelerazione teorica e $g_s$ quella sperimentale.\\
+Per ottenere l'errore percentuale basta calcolare il prodotto tra l'errore relativo e 100.\\
+Sostituendo i valori otteniamo
+$$E_1 = \frac{|10.75 - 9.81|}{9.81} = 0.096$$
+$$E_2 = \frac{|10.68 - 9.81|}{9.81} = 0.089$$
+$$E_3 = \frac{|11.11 - 9.81|}{9.81} = 0.133$$
+$$E_4 = \frac{|10.96 - 9.81|}{9.81} = 0.117$$
+$$E_5 = \frac{|10.22 - 9.81|}{9.81} = 0.042$$
+e dunque
+$$E_p1 = 9.6\perc$$
+$$E_p2 = 8.9\perc$$
+$$E_p3 = 13.3\perc$$
+$$E_p4 = 11.7\perc$$
+$$E_p5 = 4.2\perc$$
+
+\subtitle{Conclusioni}
+Si può dunque concludere l'esperimento con alcune considerazioni.
 \end{document}
